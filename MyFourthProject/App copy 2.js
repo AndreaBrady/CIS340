@@ -9,8 +9,8 @@ const dog = {
 
 export default MyScrollViewApp = () => (
     
-      <ScrollView>
-          <Text style={{padding: 40}}> Try to scroll down </Text>
+      <ScrollView style={{padding:40}}>
+          <Text style={{fontSize: 80}}> Try to scroll down </Text>
           <Image source={require('./assets/icon.png')} style={{width: 64, height: 64}} />
           <Image source={dog} />
           <Image source={dog} />
